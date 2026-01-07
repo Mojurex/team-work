@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Манай багын танилцуулга</title>
+  <link rel="stylesheet" href="/taniltsuulga/style.css" />
+</head>
+
+<body>
+  <!-- Simple top bar -->
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <a class="brand" href="#home">
+        <span class="brand__dot" aria-hidden="true"></span>
+        <span>Багын Веб</span>
+      </a>
+
+      <nav class="nav">
+        <a href="#about">Танилцуулга</a>
+        <a href="#skills">Чадвар</a>
+        <a href="#projects">Төслүүд</a>
+        <a href="#contact">Холбоо</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__text">
+          <!-- ✅ Pair A: эндхийг өөрчилнө (Гарчиг, тайлбар, товч) -->
+          <h1>Сайн байна уу! Бид бол <span class="accent">[Нэрс]</span>.</h1>
+          <p class="lead">
+            Энэ веб дээр бид өөрсдийгөө танилцуулж, хийсэн жижиг төслүүдээ харуулна.
+            Та доорх хэсгүүдийг засаж сайжруулаад өөрийн өнгө төрхтэй болгож болно.
+          </p>
+
+          <div class="hero__actions">
+            <a class="btn" href="#projects">Төслүүд үзэх</a>
+            <a class="btn btn--ghost" href="#contact">Холбогдох</a>
+          </div>
+
+          <div class="chips">
+            <span class="chip">HTML</span>
+            <span class="chip">CSS</span>
+            <span class="chip">Teamwork</span>
+            <span class="chip">Design</span>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <!-- ✅ Pair B: энэ картыг өөрчилнө (зураг/дүрс, мэдээлэл) -->
+          <div class="profile">
+            <div class="avatar" aria-hidden="true">🙂</div>
+            <div>
+              <p class="profile__title">багын мэдээлэл</p>
+              <p class="profile__meta">Анги: <strong>6/5/4</strong> · Байгууллага: <strong>[Сургууль]</strong></p>
+            </div>
+          </div>
+
+          <dl class="stats">
+            <div class="stat">
+              <dt>Сурах зорилго</dt>
+              <dd>Веб танилцуулга хийх</dd>
+            </div>
+            <div class="stat">
+              <dt>Долоо хоногт</dt>
+              <dd>3 удаа дадлага</dd>
+            </div>
+            <div class="stat">
+              <dt>Онцлох</dt>
+              <dd>Цэвэр дизайн</dd>
+            </div>
+          </dl>
+
+          <p class="note">
+            💡 Энэ хэсгийг та хоёр өөр өөрөөр гоё болгоорой: өнгө, зай, border, сүүдэр гэх мэт.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Танилцуулга</h2>
+          <p>Бид хэн бэ? Ямар зорилготой вэ?</p>
+        </div>
+
+        <div class="grid2">
+          <article class="card">
+            <!-- ✅ Pair A: “Би 1” хэсгийг бичнэ -->
+            <h3>Би 1 — [Нэр]</h3>
+            <p>
+              Сонирхол: [жишээ нь: дизайн, логик бодлого, game].
+              Энэ улиралд: HTML бүтэц (header, section, card) сайн сурна.
+            </p>
+            <ul class="list">
+              <li>Давуу тал: …</li>
+              <li>Сайжруулах зүйл: …</li>
+              <li>Дуртай өнгө: …</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <!-- ✅ Pair B: “Би 2” хэсгийг бичнэ -->
+            <h3>Би 2 — [Нэр]</h3>
+            <p>
+              Сонирхол: [жишээ нь: анимейшн, зураг, код].
+              Энэ улиралд: CSS (өнгө, spacing, responsive) сайн сурна.
+            </p>
+            <ul class="list">
+              <li>Давуу тал: …</li>
+              <li>Сайжруулах зүйл: …</li>
+              <li>Дуртай фонт: …</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Чадварууд</h2>
+          <p>Бид юу сурсан, юунд дасгал хийж байна?</p>
+        </div>
+
+        <div class="cards3">
+          <!-- ✅ Pair A: 1,2 дахь картыг -->
+          <article class="card">
+            <h3>HTML бүтэц</h3>
+            <p>Semantic tag: header, main, section, footer, nav…</p>
+            <div class="meter"><span style="width: 70%"></span></div>
+          </article>
+
+          <article class="card">
+            <h3>CSS дизайн</h3>
+            <p>Color, spacing, border-radius, shadow, typography…</p>
+            <div class="meter"><span style="width: 60%"></span></div>
+          </article>
+
+          <!-- ✅ Pair B: 3 дахь картыг -->
+          <article class="card">
+            <h3>Багаар ажиллах</h3>
+            <p>Өөрчлөлтийг хувааж хийх, merge хийх, тайлбар бичих…</p>
+            <div class="meter"><span style="width: 80%"></span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2>Төслүүд</h2>
+          <p>Жижиг боловч цэгцтэй 3 төсөл (та нарын хийснээр солигдоно)</p>
+        </div>
+
+        <div class="cards3">
+          <!-- ✅ Pair A: 1 дэх төслийг -->
+          <article class="card project">
+            <div class="project__tag">#01</div>
+            <h3>Миний эхний веб</h3>
+            <p>Header + section + card ашигласан нэг хуудас танилцуулга.</p>
+            <a class="link" href="#">Дэлгэрэнгүй →</a>
+          </article>
+
+          <!-- ✅ Pair B: 2 дахь төслийг -->
+          <article class="card project">
+            <div class="project__tag">#02</div>
+            <h3>CSS Card дизайн</h3>
+            <p>Сүүдэр, rounded, hover эффекттэй карточнууд.</p>
+            <a class="link" href="#">Дэлгэрэнгүй →</a>
+          </article>
+
+          <!-- ✅ Хоёулаа: 3 дахь төслийг хамт -->
+          <article class="card project">
+            <div class="project__tag">#03</div>
+            <h3>Responsive layout</h3>
+            <p>Утсан дээр нэг багана, дэлгэц том болоход 2–3 багана.</p>
+            <a class="link" href="#">Дэлгэрэнгүй →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section--alt">
+      <div class="container">
+        <div class="section__head">
+          <h2>Холбоо</h2>
+          <p>Энд жишээ холбоо барих мэдээлэл. Жинхэнэ мэдээллээ бичээрэй.</p>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <h3>Мэдээлэл</h3>
+            <p class="muted">Сургалтын багш: [Нэр]</p>
+            <p class="muted">Байршил: [Сургууль/Хот]</p>
+            <p class="muted">И-мэйл: example@mail.com</p>
+            <p class="muted">Утас: +976 0000 0000</p>
+          </div>
+
+          <form class="card form" action="#" method="post">
+            <h3>Санал хүсэлт</h3>
+            <label>
+              Нэр
+              <input type="text" placeholder="Таны нэр" />
+            </label>
+            <label>
+              Мессеж
+              <textarea rows="4" placeholder="Сэтгэгдлээ бичээрэй"></textarea>
+            </label>
+            <button class="btn" type="button">Илгээх (demo)</button>
+            <p class="small muted">* Энэ товч demo тул одоохондоо мэдээлэл явуулахгүй.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>© <span id="year">2026</span> багын Веб · HTML & CSS</p>
+      <p class="muted">Сайжруулсан хувилбар: өнгө, фонтыг өөрчилж өөрийн болгосон.</p>
+    </div>
+  </footer>
+</body>
+</html>
